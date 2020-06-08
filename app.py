@@ -4,7 +4,7 @@ from db import db
 from resources.userreg import UserReg ,login
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///mongo.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///hongo.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['PROPAGATE_EXCEPTIONS'] = True
 app.secret_key = '1234567890)(*&^%$#@!)'
